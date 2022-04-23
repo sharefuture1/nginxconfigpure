@@ -1,0 +1,27 @@
+
+
+.header {
+  padding: ($margin * 2) $margin ($margin * 1.5);
+
+  @media (min-width: $breakpoint) {
+    padding: ($margin * 3.75) 0 ($margin * .5);
+  }
+
+  .container {
+    h3 {
+      @include font-medium;
+    }
+
+    form {
+      .input-container {
+        margin: 0;
+      }
+
+      .buttons {
+        > * {
+          margin: 0 0 1rem;
+        }
+      }
+    }
+  }
+}

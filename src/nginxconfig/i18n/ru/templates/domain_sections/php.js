@@ -1,0 +1,32 @@
+
+import common from '../../common';
+
+export default {
+    phpIsDisabled: `${common.php} выключен.`,
+    phpCannotBeEnabledWithReverseProxy: `${common.php} не может быть включен, пока включен обратный прокси.`,
+    phpCannotBeEnabledWithPython: `${common.php} не может быть включен, пока включен ${common.python}.`,
+    enablePhp: `${common.enable} ${common.php}`,
+    wordPressRules: `${common.wordPress} правила`,
+    enableWordPressRules: `${common.enable} ${common.wordPress}-специфичные правила`,
+    drupalRules: `${common.drupal} правила`,
+    enableDrupalRules: `${common.enable} ${common.drupal}-специфичные правила`,
+    magentoRules: `${common.magento} правила`,
+    enableMagentoRules: `${common.enable} ${common.magento}-специфичные правила`,
+    joomlaRules: `${common.joomla} правила`,
+    enableJoomlaRules: `${common.enable} ${common.joomla}-специфичные правила`,
+    phpServer: `${common.php} сервер`,
+    phpBackupServer: `${common.php} бекап сервер`,
+    tcp: 'TCP',
+    hhvmSocket: 'HHVM сокет',
+    php5Socket: '5.x сокет',
+    php70Socket: '7.0 сокет',
+    php71Socket: '7.1 сокет',
+    php72Socket: '7.2 сокет',
+    php73Socket: '7.3 сокет',
+    php74Socket: '7.4 сокет',
+    php80Socket: '8.0 сокет',
+    php81Socket: '8.1 сокет',
+    phpSocket: 'PHP сокет',
+    custom: 'Другой',
+    disabled: 'Выключено',
+};

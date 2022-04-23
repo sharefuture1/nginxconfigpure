@@ -1,0 +1,26 @@
+
+
+.setup {
+  .panel {
+    p {
+      color: $dark-blue;
+      overflow-wrap: break-word;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    ol {
+      margin: 0 1rem;
+
+      li {
+        margin: 0 0 1.5rem;
+      }
+    }
+  }
+
+  .buttons {
+    margin: 1rem 0;
+  }
+}

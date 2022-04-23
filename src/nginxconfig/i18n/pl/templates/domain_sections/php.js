@@ -1,0 +1,32 @@
+
+import common from '../../common';
+
+export default {
+    phpIsDisabled: `${common.php} jest wyłączony.`,
+    phpCannotBeEnabledWithReverseProxy: `${common.php} nie może zostać włączony dopóki włączony jest reverse proxy.`,
+    phpCannotBeEnabledWithPython: `${common.php} nie może zostać włączony dopóki włączony jest ${common.python}.`,
+    enablePhp: `${common.enable} ${common.php}`,
+    wordPressRules: `reguły ${common.wordPress}`,
+    enableWordPressRules: `${common.enable} reguły specyficzne dla ${common.wordPress}`,
+    drupalRules: `reguły ${common.drupal}`,
+    enableDrupalRules: `${common.enable} reguły specyficzne dla ${common.drupal}`,
+    magentoRules: `reguły ${common.magento}`,
+    enableMagentoRules: `${common.enable} reguły specyficzne dla ${common.magento}`,
+    joomlaRules: `reguły ${common.joomla}`,
+    enableJoomlaRules: `${common.enable} reguły specyficzne dla ${common.joomla}`,
+    phpServer: `serwer ${common.php}`,
+    phpBackupServer: `serwer backupowy ${common.php}`,
+    tcp: 'TCP',
+    hhvmSocket: 'HHVM socket',
+    php5Socket: '5.x socket',
+    php70Socket: '7.0 socket',
+    php71Socket: '7.1 socket',
+    php72Socket: '7.2 socket',
+    php73Socket: '7.3 socket',
+    php74Socket: '7.4 socket',
+    php80Socket: '8.0 socket',
+    php81Socket: '8.1 socket',
+    phpSocket: 'PHP socket',
+    custom: 'Własny',
+    disabled: 'Wyłączony',
+};
