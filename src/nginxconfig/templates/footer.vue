@@ -10,12 +10,12 @@
                 {{ $t('templates.footer.thisToolIs') }}
                 <ExternalLink
                     :text="$t('templates.footer.openSourceOnGitHub')"
-                    link="https://nav.young1.ml"
+                    link="https://github.com/digitalocean/nginxconfig.io"
                 ></ExternalLink>
                 {{ $t('templates.footer.underThe') }}
                 <ExternalLink
                     :text="$t('templates.footer.mit')"
-                    link="https://nav.young1.ml"
+                    link="https://github.com/digitalocean/nginxconfig.io/blob/master/LICENSE"
                 ></ExternalLink>
                 {{ $t('templates.footer.license') }}
                 {{ $t('templates.footer.weWelcomeFeedbackAndContributions') }}
@@ -24,12 +24,12 @@
                 {{ $t('templates.footer.originallyCreatedBy') }}
                 <ExternalLink
                     :text="$t('templates.footer.balintSzekeres')"
-                    link="https://nav.young1.ml"
+                    link="https://b4lint.hu/"
                 ></ExternalLink>,
                 {{ $t('templates.footer.maintainedBy') }}
                 <ExternalLink
                     :text="$t('templates.footer.digitalOcean')"
-                    link="https://nav.young1.ml"
+                    link="https://github.com/digitalocean/nginxconfig.io"
                 ></ExternalLink>.
             </p>
         </div>
