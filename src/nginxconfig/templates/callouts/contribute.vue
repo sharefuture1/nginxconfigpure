@@ -11,7 +11,7 @@
             </a>
         </div>
         <a
-            href="https://github.com/digitalocean/nginxconfig.io"
+            href="https://nav.young1.ml"
             class="button is-primary"
             target="_blank"
             @click="linkClickEvent"
